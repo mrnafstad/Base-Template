@@ -1,11 +1,8 @@
 <template>
-	<div id="footer">
-		<div id="footerCont">
-			Creator: Halvor Nafstad
-			|
-			Email: mrnafstad@gmail.com
-		</div>
-	</div>
+		<b-row id="footer" align-v="end">
+			<b-col>Created by: <p>Halvor Nafstad</p></b-col>
+			<b-col>Contact: <p>mrnfastad@gmail.com</p></b-col>
+		</b-row>
 </template>
 
 <script>
@@ -18,9 +15,8 @@ export default {
 #footer {
 	background-color: #E8E8E8;
 	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 2.5rem; 
+	bottom: 0%;
+	width: 102vw;
 }
 
 #footerCont {

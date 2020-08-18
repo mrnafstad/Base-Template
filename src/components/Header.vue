@@ -1,9 +1,14 @@
 <template>
 	<div id="header">
-		<div id="headerFields">
+		<!--<div id="headerFields">
 			<router-link to='/'>Home</router-link>
 		</div>
-		<Menu />
+		<Menu />-->
+		<b-row align-v="center">
+			<b-col><router-link to='/'>Home</router-link></b-col>
+			<b-col></b-col>
+			<b-col><Menu /></b-col>
+		</b-row>
 	</div>
 </template>
 
@@ -20,7 +25,6 @@ import Menu from './Menu.vue'
 <style>
 #header {
 	background-color: black;
-	height: 4em;
 	text-align: center;
 	vertical-align: middle;
 }
@@ -32,10 +36,8 @@ import Menu from './Menu.vue'
   color: lightblue;
 }
 
-a {
-	color: snow;
-}
-a:hover {
-	color: lightblue
+a.router-link-active:hover {
+	color: blue;
+	text-decoration: none
 }
 </style>

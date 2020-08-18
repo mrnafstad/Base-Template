@@ -1,7 +1,13 @@
 <template>
   <div id="home">
-    <h1>--Title--</h1>
-    <p>About the app</p>
+	<h1>--Title--</h1>
+	<b-container class="bv-example-row" fluid="md">
+		<b-row>
+			<b-col>First Collumn</b-col>
+			<b-col>Second Collumn</b-col>
+			<b-col>Third Collumn</b-col>
+		</b-row>
+	</b-container>
   </div>
 </template>
 
@@ -15,6 +21,5 @@ export default {
 <style>
 #home {
   margin: auto;
-  width: 50%;
 }
 </style>

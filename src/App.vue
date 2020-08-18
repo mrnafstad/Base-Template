@@ -27,22 +27,9 @@ export default {
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
-
 body {
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   margin: 0;
   padding: 0;
 }
