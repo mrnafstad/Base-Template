@@ -29,11 +29,8 @@ import Menu from './Menu.vue'
 	vertical-align: middle;
 }
 
-#headerFields {
-  margin: auto;
-  width: 50%;
-  padding: 1em;
-  color: lightblue;
+.align-items-center{
+	width: 100vw
 }
 
 a.router-link-active:hover {
